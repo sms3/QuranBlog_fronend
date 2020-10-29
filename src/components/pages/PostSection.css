@@ -1,8 +1,13 @@
+*{
+    position: center;
+}
 .work {
     height: auto;
     padding: 50px 0;
     overflow: hidden;
     background:#fff;
+    align-content: center;
+    direction: rtl;
 }
 
 .work .work-title {
@@ -14,9 +19,10 @@
 }
 
 .work .part {
+    align-content: center;
     margin-top: 20px;
     width: 30%;
-    float: left;
+    float: center;
     height: auto;
     padding: 100px 0;
     background: #2b3280;
@@ -27,12 +33,13 @@
 }
 
 .work .first {
-    margin-left: 0
+    margin-right: 0;
 }
 
 .work .part .img {
     direction: center;
-   width: 90px ;
+   width: 100px ;
+   height: 100px;
     margin-bottom: 20px
 }
 

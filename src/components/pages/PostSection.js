@@ -26,12 +26,13 @@ const PostSection = () => {
             <div className="container">
             <div className="part first">
                     <h2 className="work-title">{post.title}</h2>
-                    <img src={`http://localhost:8000/storage/Images/${post.image}`} alt={post.image} className="img" />
+                    <img src={`http://localhost:8000/posts/${post.image}`} alt={post.image} className="img" />
                         <h4 className="part-title">{post.date}</h4>
                         <hr className="line"/>
                         <p className="part-desc">
                         {post.info}
-                        <h3 className="part-title">كتب بقلم :: {post.name}</h3>
+                        <h3 className="part-title">إعداد  :: {post.name}</h3>
+                        <h3 className="part-title">بتاريخ   :: {post.created_at}</h3>
                         </p>
                         </div>
                        
